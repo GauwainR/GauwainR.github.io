@@ -26,7 +26,6 @@ a {
       -ms-flex-direction: column;
           flex-direction: column;
   height: 100vh;
-  min-height: 600px;
   position: relative;
 }
 .main .main-overlay-1 {
@@ -355,7 +354,6 @@ a {
       -ms-flex-direction: column;
           flex-direction: column;
   height: 100vh;
-  min-height: 600px;
 }
 .skills .skills-group-block {
   display: -webkit-box;
@@ -466,7 +464,6 @@ a {
       -ms-flex-align: center;
           align-items: center;
   height: 130vh;
-  min-height: 600px;
 }
 .works .works-content {
   display: -webkit-box;
@@ -585,7 +582,6 @@ a {
       -ms-flex-direction: column;
           flex-direction: column;
   height: 100vh;
-  min-height: 600px;
 }
 .feedback .name {
   letter-spacing: 0.280em;
@@ -792,7 +788,6 @@ a {
       -ms-flex-direction: column;
           flex-direction: column;
   height: 100vh;
-  min-height: 600px;
 }
 .footer .content-block-title-line {
   width: 196px;
@@ -1243,9 +1238,11 @@ a {
     height: 371px;
   }
   .works {
+    position: relative;
     height: 687px;
   }
   .works .works-content {
+    height: 687px;
     width: 304px;
   }
   .works .works-content .group-of-two-works-block {
@@ -1298,6 +1295,7 @@ a {
     font-size: 18px;
   }
   .feedback {
+    position: relative;
     height: 610px;
     margin: 0 auto;
     width: 301px;
