@@ -1297,4 +1297,95 @@ a {
   .works .all-information-button p {
     font-size: 18px;
   }
+  .feedback {
+    height: 610px;
+    margin: 0 auto;
+    width: 301px;
+  }
+  .feedback .feedback-blocks-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 301px;
+    height: 400px;
+  }
+  .feedback .feedback-blocks-wrapper .feedback-high-block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 301px;
+    height: 382.21px;
+  }
+  .feedback .feedback-blocks-wrapper .feedback-high-block .feedback-title {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 261.14px;
+  }
+  .feedback .feedback-blocks-wrapper .feedback-high-block .feedback-title .profile-icon {
+    width: 100px;
+    height: 100px;
+  }
+  .feedback .feedback-blocks-wrapper .feedback-high-block .feedback-title .name {
+    font-size: 15px;
+  }
+  .feedback .feedback-blocks-wrapper .feedback-high-block .feedback-title .corporation {
+    font-size: 13px;
+    text-align: center;
+  }
+  .feedback .feedback-blocks-wrapper .feedback-high-block .feedback-description {
+    font-size: 15px;
+    width: 262px;
+  }
+  .feedback .feedback-blocks-wrapper .feedback-width-blocks-wrapper {
+    display: none;
+  }
+  .footer {
+    margin: 0 auto;
+    width: 295px;
+    height: 640px;
+  }
+  .footer form {
+    height: 405px;
+    width: 260px;
+  }
+  .footer form .data-person-block {
+    height: 149px;
+    width: 260px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .footer form .data-person-block .data-about-person {
+    width: 260px;
+    height: 37px;
+  }
+  .footer form textarea {
+    width: 260px;
+    height: 142px;
+  }
+  .footer .footer-information {
+    height: 113px;
+    width: 295px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .footer .footer-information .copyright-wrapper p {
+    font-size: 16px;
+  }
+  .footer .footer-information .links-wrapper .link {
+    font-size: 16px;
+  }
+  .footer .footer-information .cooperation {
+    font-size: 16px;
+  }
 }
